@@ -1,0 +1,197 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programa de Gestión de Usuarios - Recursos Humanos</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .justify-content-start {
+            display: flex;
+            justify-content: flex-start;
+        }
+
+        .fw-bolder {
+            font-weight: bold;
+        }
+
+        .custom-h1 {
+            color: #777AA4;
+        }
+
+        .custom-h2 {
+            color: #938DA2;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .custom-p {
+            text-align: justify;
+            line-height: 1.6;
+        }
+
+        .image-container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+            .image-container img {
+                max-width: 100%;
+                height: auto;
+            }
+    </style>
+</head>
+<body>
+    <div class="justify-content-start">
+        <div class="fw-bolder">
+            <h1 class="custom-h1">Recursos humanos</h1>
+            <h2 class="custom-h2">Software de recursos Humanos</h2>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="image-container">
+                    <img src="~/img/recueross humanos.png" />
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="justify-content-center">
+                    <p class="text-start position-relative custom-p">EMPLEA GESTIÓN, ayuda a las empresas a gestionar eficientemente las tareas relacionadas con la gestión del personal y la administración de recursos humanos. Software personalizable según las necesidades específicas de cada empresa.</p>
+                    <div>
+                        <button class="btn btn-primary btn-lg" type="button" data-toggle="modal" data-target="#modalRegistro">Registrarse</button>
+                        <button class="btn btn-primary btn-lg" type="button" data-toggle="modal" data-target="#modalInicioSesion">Iniciar Sesión</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalRegistro" tabindex="-1" role="dialog" aria-labelledby="modalRegistroLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalRegistroLabel">Registro</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form id="formularioRegistro" onsubmit="registrarUsuario(event)">
+                        <div class="form-group">
+                            <label for="nombreRegistro">Nombre</label>
+                            <input type="text" class="form-control" id="nombreRegistro" placeholder="Ingrese su nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="edadRegistro">Edad</label>
+                            <input type="number" class="form-control" id="edadRegistro" placeholder="Ingrese su edad" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="passwordRegistro">Contraseña</label>
+                            <input type="password" class="form-control" id="passwordRegistro" placeholder="Ingrese su contraseña" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Registrar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalInicioSesion" tabindex="-1" role="dialog" aria-labelledby="modalInicioSesionLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalInicioSesionLabel">Iniciar Sesión</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form id="formularioInicioSesion" onsubmit="iniciarSesion(event)">
+                        <div class="form-group">
+                            <label for="nombreInicioSesion">Nombre</label>
+                            <input type="text" class="form-control" id="nombreInicioSesion" placeholder="Ingrese su nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="passwordInicioSesion">Contraseña</label>
+                            <input type="password" class="form-control" id="passwordInicioSesion" placeholder="Ingrese su contraseña" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Iniciar Sesión</button>
+                    </form>
+                    <p id="mensajeInicioSesion" style="margin-top: 10px;"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        
+        let usuarios = [];
+
+        function registrarUsuario(event) {
+            event.preventDefault(); 
+            let nombre = document.getElementById("nombreRegistro").value;
+            let edad = document.getElementById("edadRegistro").value;
+            let password = document.getElementById("passwordRegistro").value;
+
+            let usuario = {
+                nombre: nombre,
+                edad: edad,
+                password: password
+            };
+
+         
+            usuarios.push(usuario);
+
+          
+            document.getElementById("nombreRegistro").value = "";
+            document.getElementById("edadRegistro").value = "";
+            document.getElementById("passwordRegistro").value = "";
+
+            alert("Usuario registrado correctamente");
+            $('#modalRegistro').modal('hide');
+        }
+
+        function iniciarSesion(event) {
+            event.preventDefault(); 
+            let nombre = document.getElementById("nombreInicioSesion").value;
+            let password = document.getElementById("passwordInicioSesion").value;
+
+          
+            let usuarioEncontrado = usuarios.find(function (usuario) {
+                return usuario.nombre === nombre && usuario.password === password;
+            });
+
+            if (usuarioEncontrado) {
+                document.getElementById("mensajeInicioSesion").innerText = "¡Hola " + usuarioEncontrado.nombre + "! Bienvenido.";
+            } else {
+                document.getElementById("mensajeInicioSesion").innerText = "Usuario no registrado.";
+            }
+
+           
+            document.getElementById("nombreInicioSesion").value = "";
+            document.getElementById("passwordInicioSesion").value = "";
+            $('#modalInicioSesion').modal('hide');
+        }
+    </script>
+</body>

@@ -1,0 +1,48 @@
+﻿@model List<Persona>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Razón de Ser - EMPLEAGESTIÓN</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        p {
+            text-align: justify;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<h2>Listado de Personas</h2>
+
+<table class="table">
+    <tr>
+        <th>Nombre</th>
+        <th>Edad</th>
+        <th>Acciones</th>
+    </tr>
+    @foreach (var persona in Model)
+    {
+        <tr>
+            <td>@persona.Nombre</td>
+            <td>@persona.Edad</td>
+            <td>
+                <a href="@Url.Action("Editar", "Personas", new { id = persona.Id })">Editar</a> |
+                <a href="@Url.Action("Eliminar", "Personas", new { id = persona.Id })">Eliminar</a>
+            </td>
+        </tr>
+    }
+</table>
+
+<a href="@Url.Action("Crear", "Personas")" class="btn btn-primary">Crear Nueva Persona</a>

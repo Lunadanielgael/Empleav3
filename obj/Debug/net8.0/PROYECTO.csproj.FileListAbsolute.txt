@@ -1,0 +1,119 @@
+D:\Documentos\Documentos varios\workspace\PROYECTO\bin\Debug\net8.0\appsettings.Development.json
+D:\Documentos\Documentos varios\workspace\PROYECTO\bin\Debug\net8.0\appsettings.json
+D:\Documentos\Documentos varios\workspace\PROYECTO\bin\Debug\net8.0\PROYECTO.staticwebassets.runtime.json
+D:\Documentos\Documentos varios\workspace\PROYECTO\bin\Debug\net8.0\PROYECTO.exe
+D:\Documentos\Documentos varios\workspace\PROYECTO\bin\Debug\net8.0\PROYECTO.deps.json
+D:\Documentos\Documentos varios\workspace\PROYECTO\bin\Debug\net8.0\PROYECTO.runtimeconfig.json
+D:\Documentos\Documentos varios\workspace\PROYECTO\bin\Debug\net8.0\PROYECTO.dll
+D:\Documentos\Documentos varios\workspace\PROYECTO\bin\Debug\net8.0\PROYECTO.pdb
+D:\Documentos\Documentos varios\workspace\PROYECTO\obj\Debug\net8.0\PROYECTO.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documentos\Documentos varios\workspace\PROYECTO\obj\Debug\net8.0\PROYECTO.AssemblyInfoInputs.cache
+D:\Documentos\Documentos varios\workspace\PROYECTO\obj\Debug\net8.0\PROYECTO.AssemblyInfo.cs
+D:\Documentos\Documentos varios\workspace\PROYECTO\obj\Debug\net8.0\PROYECTO.csproj.CoreCompileInputs.cache
+D:\Documentos\Documentos varios\workspace\PROYECTO\obj\Debug\net8.0\PROYECTO.MvcApplicationPartsAssemblyInfo.cache
+D:\Documentos\Documentos varios\workspace\PROYECTO\obj\Debug\net8.0\PROYECTO.RazorAssemblyInfo.cache
+D:\Documentos\Documentos varios\workspace\PROYECTO\obj\Debug\net8.0\PROYECTO.RazorAssemblyInfo.cs
+D:\Documentos\Documentos varios\workspace\PROYECTO\obj\Debug\net8.0\staticwebassets.build.json
+D:\Documentos\Documentos varios\workspace\PROYECTO\obj\Debug\net8.0\staticwebassets.development.json
+D:\Documentos\Documentos varios\workspace\PROYECTO\obj\Debug\net8.0\staticwebassets\msbuild.PROYECTO.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Documentos\Documentos varios\workspace\PROYECTO\obj\Debug\net8.0\staticwebassets\msbuild.build.PROYECTO.props
+D:\Documentos\Documentos varios\workspace\PROYECTO\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.PROYECTO.props
+D:\Documentos\Documentos varios\workspace\PROYECTO\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.PROYECTO.props
+D:\Documentos\Documentos varios\workspace\PROYECTO\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Documentos\Documentos varios\workspace\PROYECTO\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Documentos\Documentos varios\workspace\PROYECTO\obj\Debug\net8.0\scopedcss\bundle\PROYECTO.styles.css
+D:\Documentos\Documentos varios\workspace\PROYECTO\obj\Debug\net8.0\scopedcss\projectbundle\PROYECTO.bundle.scp.css
+D:\Documentos\Documentos varios\workspace\PROYECTO\obj\Debug\net8.0\PROYECTO.dll
+D:\Documentos\Documentos varios\workspace\PROYECTO\obj\Debug\net8.0\refint\PROYECTO.dll
+D:\Documentos\Documentos varios\workspace\PROYECTO\obj\Debug\net8.0\PROYECTO.pdb
+D:\Documentos\Documentos varios\workspace\PROYECTO\obj\Debug\net8.0\PROYECTO.genruntimeconfig.cache
+D:\Documentos\Documentos varios\workspace\PROYECTO\obj\Debug\net8.0\ref\PROYECTO.dll
+F:\PROYECTO\bin\Debug\net8.0\appsettings.Development.json
+F:\PROYECTO\bin\Debug\net8.0\appsettings.json
+F:\PROYECTO\bin\Debug\net8.0\PROYECTO.staticwebassets.runtime.json
+F:\PROYECTO\bin\Debug\net8.0\PROYECTO.exe
+F:\PROYECTO\bin\Debug\net8.0\PROYECTO.deps.json
+F:\PROYECTO\bin\Debug\net8.0\PROYECTO.runtimeconfig.json
+F:\PROYECTO\bin\Debug\net8.0\PROYECTO.dll
+F:\PROYECTO\bin\Debug\net8.0\PROYECTO.pdb
+F:\PROYECTO\obj\Debug\net8.0\PROYECTO.GeneratedMSBuildEditorConfig.editorconfig
+F:\PROYECTO\obj\Debug\net8.0\PROYECTO.AssemblyInfoInputs.cache
+F:\PROYECTO\obj\Debug\net8.0\PROYECTO.AssemblyInfo.cs
+F:\PROYECTO\obj\Debug\net8.0\PROYECTO.csproj.CoreCompileInputs.cache
+F:\PROYECTO\obj\Debug\net8.0\PROYECTO.MvcApplicationPartsAssemblyInfo.cache
+F:\PROYECTO\obj\Debug\net8.0\PROYECTO.RazorAssemblyInfo.cache
+F:\PROYECTO\obj\Debug\net8.0\PROYECTO.RazorAssemblyInfo.cs
+F:\PROYECTO\obj\Debug\net8.0\staticwebassets.build.json
+F:\PROYECTO\obj\Debug\net8.0\staticwebassets.development.json
+F:\PROYECTO\obj\Debug\net8.0\staticwebassets\msbuild.PROYECTO.Microsoft.AspNetCore.StaticWebAssets.props
+F:\PROYECTO\obj\Debug\net8.0\staticwebassets\msbuild.build.PROYECTO.props
+F:\PROYECTO\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.PROYECTO.props
+F:\PROYECTO\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.PROYECTO.props
+F:\PROYECTO\obj\Debug\net8.0\staticwebassets.pack.json
+F:\PROYECTO\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+F:\PROYECTO\obj\Debug\net8.0\scopedcss\bundle\PROYECTO.styles.css
+F:\PROYECTO\obj\Debug\net8.0\scopedcss\projectbundle\PROYECTO.bundle.scp.css
+F:\PROYECTO\obj\Debug\net8.0\PROYECTO.dll
+F:\PROYECTO\obj\Debug\net8.0\refint\PROYECTO.dll
+F:\PROYECTO\obj\Debug\net8.0\PROYECTO.pdb
+F:\PROYECTO\obj\Debug\net8.0\PROYECTO.genruntimeconfig.cache
+F:\PROYECTO\obj\Debug\net8.0\ref\PROYECTO.dll
+C:\PROYECTO\bin\Debug\net8.0\appsettings.Development.json
+C:\PROYECTO\bin\Debug\net8.0\appsettings.json
+C:\PROYECTO\bin\Debug\net8.0\PROYECTO.staticwebassets.runtime.json
+C:\PROYECTO\bin\Debug\net8.0\PROYECTO.exe
+C:\PROYECTO\bin\Debug\net8.0\PROYECTO.deps.json
+C:\PROYECTO\bin\Debug\net8.0\PROYECTO.runtimeconfig.json
+C:\PROYECTO\bin\Debug\net8.0\PROYECTO.dll
+C:\PROYECTO\bin\Debug\net8.0\PROYECTO.pdb
+C:\PROYECTO\obj\Debug\net8.0\PROYECTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\PROYECTO\obj\Debug\net8.0\PROYECTO.AssemblyInfoInputs.cache
+C:\PROYECTO\obj\Debug\net8.0\PROYECTO.AssemblyInfo.cs
+C:\PROYECTO\obj\Debug\net8.0\PROYECTO.csproj.CoreCompileInputs.cache
+C:\PROYECTO\obj\Debug\net8.0\PROYECTO.MvcApplicationPartsAssemblyInfo.cache
+C:\PROYECTO\obj\Debug\net8.0\PROYECTO.RazorAssemblyInfo.cache
+C:\PROYECTO\obj\Debug\net8.0\PROYECTO.RazorAssemblyInfo.cs
+C:\PROYECTO\obj\Debug\net8.0\staticwebassets.build.json
+C:\PROYECTO\obj\Debug\net8.0\staticwebassets.development.json
+C:\PROYECTO\obj\Debug\net8.0\staticwebassets\msbuild.PROYECTO.Microsoft.AspNetCore.StaticWebAssets.props
+C:\PROYECTO\obj\Debug\net8.0\staticwebassets\msbuild.build.PROYECTO.props
+C:\PROYECTO\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.PROYECTO.props
+C:\PROYECTO\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.PROYECTO.props
+C:\PROYECTO\obj\Debug\net8.0\staticwebassets.pack.json
+C:\PROYECTO\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\PROYECTO\obj\Debug\net8.0\scopedcss\bundle\PROYECTO.styles.css
+C:\PROYECTO\obj\Debug\net8.0\scopedcss\projectbundle\PROYECTO.bundle.scp.css
+C:\PROYECTO\obj\Debug\net8.0\PROYECTO.dll
+C:\PROYECTO\obj\Debug\net8.0\refint\PROYECTO.dll
+C:\PROYECTO\obj\Debug\net8.0\PROYECTO.pdb
+C:\PROYECTO\obj\Debug\net8.0\PROYECTO.genruntimeconfig.cache
+C:\PROYECTO\obj\Debug\net8.0\ref\PROYECTO.dll
+C:\PROYECTO\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\PROYECTO\bin\Debug\net8.0\Google.Protobuf.dll
+C:\PROYECTO\bin\Debug\net8.0\K4os.Compression.LZ4.dll
+C:\PROYECTO\bin\Debug\net8.0\K4os.Compression.LZ4.Streams.dll
+C:\PROYECTO\bin\Debug\net8.0\K4os.Hash.xxHash.dll
+C:\PROYECTO\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\PROYECTO\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\PROYECTO\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\PROYECTO\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\PROYECTO\bin\Debug\net8.0\MySql.Data.dll
+C:\PROYECTO\bin\Debug\net8.0\MySql.EntityFrameworkCore.dll
+C:\PROYECTO\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\PROYECTO\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\PROYECTO\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\PROYECTO\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\PROYECTO\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\PROYECTO\bin\Debug\net8.0\ZstdSharp.dll
+C:\PROYECTO\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\PROYECTO\bin\Debug\net8.0\runtimes\win-x64\native\comerr64.dll
+C:\PROYECTO\bin\Debug\net8.0\runtimes\win-x64\native\gssapi64.dll
+C:\PROYECTO\bin\Debug\net8.0\runtimes\win-x64\native\k5sprt64.dll
+C:\PROYECTO\bin\Debug\net8.0\runtimes\win-x64\native\krb5_64.dll
+C:\PROYECTO\bin\Debug\net8.0\runtimes\win-x64\native\krbcc64.dll
+C:\PROYECTO\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\PROYECTO\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\PROYECTO\bin\Debug\net8.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\PROYECTO\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\PROYECTO\obj\Debug\net8.0\PROYECTO.csproj.AssemblyReference.cache
+C:\PROYECTO\obj\Debug\net8.0\PROYECTO.csproj.Up2Date

@@ -1,0 +1,149 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Razón de Ser - EMPLEAGESTIÓN</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        p {
+            text-align: justify;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var objetivos = new bootstrap.Modal(document.getElementById('objetivos'));
+
+        var verMasobjetivos = document.getElementById('verMasobjetivos');
+        verMasobjetivos.addEventListener('click', function () {
+            objetivos.show();
+        });
+    });
+    document.addEventListener("DOMContentLoaded", function () {
+        var quemodal = new bootstrap.Modal(document.getElementById('quemodal'));
+
+        var queb = document.getElementById('queb');
+        queb.addEventListener('click', function () {
+            quemodal.show();
+        });
+    });
+</script>
+
+<div class="text-center">
+    <div class="row">
+        <div class="col-md-12 text-center mb-4">
+            <h1>Emplea Gestion</h1>
+            <div class="mb-3">
+                <small class="text-muted">EMPRESA DE RECURSOS HUMANOS CERTIFICADA</small>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4 text-center">
+            <div class="card h-80">
+                <img src="~/img/imagen recuersos.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">¿Por qué RRH?</h5>
+                    <p class="card-text">Porque es importante RRH en una empresa</p>
+                    <button id="queb" type="button" class="btn btn-outline-primary mt-auto">Ver mas</button>
+                    <div class="modal fade" id="quemodal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Objetivos que aseguramos cumplir</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>Los recursos humanos (RRHH) son fundamentales en una empresa por varias razones:</p>
+
+                                    <p>Selección y contratación de talento: Los profesionales de RRHH son responsables de reclutar, evaluar y seleccionar a los candidatos más adecuados para cubrir las vacantes en la empresa. Esto garantiza que se contraten personas con las habilidades y la experiencia necesarias para contribuir al éxito de la organización.</p>
+
+                                    <p>Desarrollo y retención de empleados: Los departamentos de RRHH diseñan programas de desarrollo profesional, entrenamiento y capacitación para mejorar las habilidades de los empleados y fomentar su crecimiento dentro de la empresa. Además, se encargan de implementar estrategias para retener el talento y promover un ambiente laboral positivo.</p>
+
+                                    <p> Gestión del desempeño: Los profesionales de RRHH establecen y supervisan sistemas de evaluación del desempeño que permiten medir el rendimiento de los empleados y proporcionar retroalimentación constructiva. Esto ayuda a identificar áreas de mejora y reconocer el buen trabajo, lo que contribuye a la motivación y el compromiso de los empleados.</p>
+
+                                    <p> Gestión de relaciones laborales: Los departamentos de RRHH se encargan de manejar las relaciones laborales dentro de la empresa, incluyendo la resolución de conflictos, la negociación de contratos colectivos y el cumplimiento de las normativas laborales.</p>
+
+                                    <p> Cultura organizacional: Los profesionales de RRHH juegan un papel clave en la creación y mantenimiento de la cultura organizacional, promoviendo los valores, la misión y la visión de la empresa. Esto contribuye a la cohesión del equipo, la identidad corporativa y la motivación de los empleados.</p>
+                                    
+
+
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 text-center">
+            <div class="card h-80">
+                <img src="~/img/benefisios.png" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Beneficios </h5>
+                    <p class="card-text">Razones por las cuales debemos estar en cualquier empresa </p>
+                    <button  type="button" class="btn btn-outline-primary mt-auto">Ver mas</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 text-center">
+            <div class="card h-80">
+                <img src="~/img/objetivos1.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Objetivos</h5>
+                    <p class="card-text">Objetivos que busca nuestro software al implementrse en una empresa ya sea mediana o grande .</p>
+                    <button id="verMasobjetivos" type="button" class="btn btn-outline-primary mt-auto">Ver mas </button>
+                    <div class="modal fade" id="objetivos" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Objetivos que aseguramos cumplir</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>1.Aumentar la eficiencia operativa: Automatizar tareas repetitivas y optimizar procesos puede ayudar a reducir el tiempo y los recursos necesarios para llevar a cabo diversas actividades empresariales.</p>
+                                    <p> 2.Mejorar la productividad: Al proporcionar herramientas y funciones que faciliten el trabajo de los empleados, se espera que el software contribuya a una mayor productividad en general.</p>
+                                    <p> 3.Optimizar la toma de decisiones: Proporcionar información relevante en tiempo real y análisis detallados puede ayudar a los líderes empresariales a tomar decisiones más informadas y estratégicas.</p>
+                                    <p> 4.Incrementar la calidad y precisión: Al estandarizar procesos y reducir errores manuales, el software puede contribuir a mejorar la calidad y precisión de las operaciones comerciales.</p>
+                                    <p> 5.Mejorar la colaboración y comunicación: Facilitar la comunicación entre los equipos y departamentos, así como proporcionar herramientas para la colaboración en proyectos, puede mejorar la eficacia y cohesión del equipo.</p>
+                                    <p>6.Aumentar la satisfacción del cliente: Al mejorar la eficiencia operativa y la calidad de los productos o servicios ofrecidos, el software puede contribuir a una experiencia general más satisfactoria para los clientes.</p>
+                                    <p> 7.Adaptarse a los cambios del mercado: La flexibilidad y escalabilidad del software pueden permitir a la empresa adaptarse rápidamente a los cambios en el entorno empresarial y satisfacer las demandas del mercado en constante evolución.</p>
+                                    <p> 8.Cumplir con regulaciones y estándares: En ciertas industrias, es crucial cumplir con regulaciones y estándares específicos. El software puede ayudar a garantizar el cumplimiento y facilitar la auditoría y el seguimiento.</p>
+                                    <p> 9.Reducir costos: Al optimizar procesos y recursos, así como al eliminar la dependencia de sistemas obsoletos o ineficientes, el software puede ayudar a reducir los costos operativos.</p>
+                                    <p>10.Fomentar la innovación: Al proporcionar herramientas y plataformas que fomenten la creatividad y la experimentación, el software puede impulsar la innovación dentro de la empresa, lo que a su vez puede proporcionar ventajas competitivas.</p>
+
+
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+

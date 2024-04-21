@@ -1,0 +1,176 @@
+﻿@{
+    ViewData["Title"] = "";
+}
+<h1>@ViewData["Title"]</h1>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Razón de Ser - EMPLEAGESTIÓN</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        p {
+            text-align: justify;
+            line-height: 1.6;
+        }
+
+  
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        .modal-content {
+            background-color: #fefefe;
+            margin: 15% auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 80%;
+        }
+
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+            .close:hover,
+            .close:focus {
+                color: black;
+                text-decoration: none;
+                cursor: pointer;
+            }
+
+      
+        .modal-buttons {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+            .modal-buttons button {
+                padding: 10px 20px;
+                background-color: #007bff;
+                color: #fff;
+                border: black;
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+            }
+
+            .modal-buttons .btn-icon {
+                margin-right: 10px;
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Razón de Ser - EMPLEAGESTIÓN</h1>
+        <p>En EMPLEAGESTIÓN, entendemos las complejidades y desafíos que enfrentan las empresas en la gestión de su talento humano, y nos enorgullece ofrecer soluciones integrales que marcan la diferencia.</p>
+    </div>
+
+   
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+           
+            <p>Trabajamos estrechamente contigo para comprender tus necesidades específicas y diseñar soluciones a medida que se alineen con tus objetivos empresariales.</p>
+        </div>
+    </div>
+
+    <div id="modal2" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+           
+            <p>Nos comprometemos a ofrecer servicios de la más alta calidad en todo momento. Desde el reclutamiento del mejor talento hasta el diseño de programas de desarrollo personalizados.</p>
+        </div>
+    </div>
+
+ 
+    <div id="modal3" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+          
+            <p>Nuestras herramientas y plataformas tecnológicas de última generación te brindan acceso a datos y análisis en tiempo real.</p>
+        </div>
+    </div>
+
+    
+    <div class="modal-buttons">
+        <button id="modalBtn1"><i class="fas fa-info-circle btn-icon"></i>Enfoque Personalizado </button>
+        <button id="modalBtn2"><i class="fa-regular fa-share-from-square"></i>Compromiso con la Calidad</button>
+        <button id="modalBtn3"> <i class="fas fa-info-circle btn-icon"></i>Tecnología Innovadora</button>
+    </div>
+
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+
+    <script>
+     
+        var modal1 = document.getElementById('modal1');
+        var modal2 = document.getElementById('modal2');
+        var modal3 = document.getElementById('modal3');
+        var modalBtn1 = document.getElementById('modalBtn1');
+        var modalBtn2 = document.getElementById('modalBtn2');
+        var modalBtn3 = document.getElementById('modalBtn3');
+        var closeBtn1 = document.querySelector('#modal1 .close');
+        var closeBtn2 = document.querySelector('#modal2 .close');
+        var closeBtn3 = document.querySelector('#modal3 .close');
+
+        modalBtn1.onclick = function () {
+            modal1.style.display = "block";
+        }
+        modalBtn2.onclick = function () {
+            modal2.style.display = "block";
+        }
+        modalBtn3.onclick = function () {
+            modal3.style.display = "block";
+        }
+
+        closeBtn1.onclick = function () {
+            modal1.style.display = "none";
+        }
+        closeBtn2.onclick = function () {
+            modal2.style.display = "none";
+        }
+        closeBtn3.onclick = function () {
+            modal3.style.display = "none";
+        }
+
+       
+        window.onclick = function (event) {
+            if (event.target == modal1) {
+                modal1.style.display = "none";
+            }
+            if (event.target == modal2) {
+                modal2.style.display = "none";
+            }
+            if (event.target == modal3) {
+                modal3.style.display = "none";
+            }
+        }
+    </script>
+</body>
